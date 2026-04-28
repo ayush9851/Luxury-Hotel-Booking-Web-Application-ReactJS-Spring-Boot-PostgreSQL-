@@ -1,0 +1,129 @@
+.dine-page {
+    background: #0b0b0b;
+    color: white;
+    font-family: "Georgia", serif;
+    border: 2px solid goldenrod;
+}
+
+/* HERO */
+
+.hero {
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100vw;
+}
+
+.hero-overlay {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 5rem;
+    color: gold;
+    letter-spacing: 6px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+.intro {
+    text-align: center;
+    padding: 60px;
+    max-width: 800px;
+    margin: auto;
+}
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+    padding: 80px;
+}
+
+.feature-card {
+    background: #111;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.15);
+    text-align: center;
+}
+
+.feature-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.feature-card h3 {
+    color: gold;
+}
+
+.feature-card button {
+    margin: 15px;
+    padding: 10px 25px;
+    border: none;
+    background: gold;
+    cursor: pointer;
+    border-radius: 20px;
+    color: black;
+}
+.gallery {
+    padding: 80px;
+    text-align: center;
+}
+
+.gallery h2 {
+    color: gold;
+    margin-bottom: 40px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.reservation {
+    padding: 80px;
+    text-align: center;
+    background: linear-gradient(to right, #000, #222);
+}
+
+.reservation h2 {
+    color: gold;
+    margin-bottom: 30px;
+}
+
+.reservation form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.reservation select,
+.reservation button {
+    padding: 12px 25px;
+    border-radius: 25px;
+    border: none;
+}
+
+.reservation button {
+    background: gold;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+}

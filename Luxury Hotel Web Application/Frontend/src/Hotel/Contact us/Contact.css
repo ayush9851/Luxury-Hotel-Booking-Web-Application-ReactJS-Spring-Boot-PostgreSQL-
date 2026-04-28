@@ -1,0 +1,57 @@
+.contactpage-wrapper {
+    min-height: 100vh;
+    width: 100vw;
+    background:rgba(169, 169, 169, 0.096);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.contactpage-card {
+    background: #111;
+    padding: 50px 60px;
+    border-radius: 18px;
+    text-align: center;
+    max-width: 420px;
+    width: 90%;
+    margin-bottom: -70px;
+    border: 3px solid white;
+    box-shadow: 0 10px 20px white;
+}
+.contactpage-card h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+.contactpage-card p {
+    color: #bbb;
+    margin-bottom: 35px;
+}
+.contactpage-info {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 35px;
+}
+
+.contactpage-item {
+    font-size: 1.05rem;
+    color: #ddd;
+}
+.contactpage-btn {
+    padding: 14px 35px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+
+    background: linear-gradient(135deg, #d4af37, #b8962e);
+    color: black;
+}
+
+.contactpage-btn:hover {
+    background: transparent;
+    color: white;
+}

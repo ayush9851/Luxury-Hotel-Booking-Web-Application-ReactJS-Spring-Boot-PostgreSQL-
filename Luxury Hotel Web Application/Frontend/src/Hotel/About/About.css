@@ -1,0 +1,71 @@
+.aboutpage-container {
+    background: #0b0b0b;
+    color: #fff;
+}
+
+/* HERO */
+.aboutpage-hero {
+    height: 600px;
+    background-image: url("about-bg.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.aboutpage-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+/* TEXT ON IMAGE */
+.aboutpage-textbox {
+    position: relative;
+    z-index: 2;
+    max-width: 700px;
+    padding: 20px;
+}
+
+.aboutpage-textbox h1 {
+    font-size: 3.4rem;
+    margin-bottom: 14px;
+}
+
+.aboutpage-subtitle {
+    font-size: 1.15rem;
+    opacity: 0.9;
+    line-height: 1.7;
+}
+
+.aboutpage-storygrid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 70px;
+    padding: 110px 100px;
+    align-items: center;
+    background: linear-gradient(100deg ,#201705,#977845);
+}
+.aboutpage-storycontent{
+    margin-top:-50px;
+}
+
+.aboutpage-storycontent h2 {
+    font-size: 2.6rem;
+    margin-bottom: 22px;
+}
+
+.aboutpage-storycontent p {
+    color: #ddd;
+    line-height: 1.9;
+    margin-bottom: 15px;
+}
+.aboutpage-imageblock img {
+    width: 100%;
+    border-radius: 18px;
+    box-shadow: 10px 10px 10px black;
+}
